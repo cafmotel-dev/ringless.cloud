@@ -114,7 +114,7 @@
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://www.cafmotel.com" target="_blank" style="display: inline-block;">
+              <a href="https://www.ringless.cloud.com" target="_blank" style="display: inline-block;">
                
               </a>
             </td>
@@ -142,7 +142,7 @@
           <tr>
       
             <td align="center" bgcolor="#ffffff" style="padding: 36px 24px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; border-top: 3px solid #d4dadf;">
-                  <img src="https://tse3.mm.bing.net/th?id=OIP.clZ7dGf6vY_bbDmfAayg-gAAAA&pid=Api&P=0&h=180" alt="Logo" border="0" width="48" style="display: block; width: 70px; max-width: 100px; min-width: 100px;">
+                  <img src="{{ asset('web/images/internet/logo.png') }}" alt="Logo" border="0" width="48" style="display: block; width: 70px; max-width: 100px; min-width: 100px;">
               <h1 style="margin: 0; font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 48px;text-align:left;">New Email Verification Request</h1>
             </td>
           </tr>
@@ -206,7 +206,7 @@
           <!-- start copy -->
           <tr>
             <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
-              <p style="margin: 0;">Thanks & Regards,<br> Cafmotel</p>
+              <p style="margin: 0;">Thanks & Regards,<br> Ringless Cloud</p>
             </td>
           </tr>
           <!-- end copy -->

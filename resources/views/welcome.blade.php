@@ -36,7 +36,7 @@
                                     their daily routines.
                                 </p>
                                 <div>
-                                    <a href="#" class="pbmit-btn">Get a Quote</a>
+                                    <a href="{{url('sign-up')}}" class="pbmit-btn">Get Started</a>
                                     <!-- <span class="button-text">Discover Hub</span> -->
                                 </div>
                             </div>
@@ -760,7 +760,7 @@
                                             </div>
                                             <div class="pbminfotech-ptable-btn">
                                                 <div class="pbmit-ptable-btn">
-                                                    <a href="#"><span>Get Started</span></a>
+                                                    <a href="{{url('sign-up')}}"><span>Get Started</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -815,7 +815,7 @@
                                                 </div>
                                             </div>
                                             <div class="pbminfotech-ptable-btn">
-                                                <div class="pbmit-ptable-btn"><a href="#"><span>Get Started</span></a>
+                                                <div class="pbmit-ptable-btn"><a href="{{url('sign-up')}}"><span>Get Started</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -880,7 +880,7 @@
                                             Ringless voicemail drops (RVMs), also known as voicemail
                                             drops, are tools employed to deliver personalized
                                             voicemail messages directly to the recipient's voicemail
-                                            box. Cafmotel holds the patent for our ringless
+                                            box. Ringless Cloud holds the patent for our ringless
                                             voicemail technology. Utilizing our platform, we
                                             seamlessly take your prerecorded message and insert it
                                             into the recipient's voicemail box. We take pride in the

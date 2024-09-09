@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <!-- Links of CSS files -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/web/images/internet/favicon.png')}}" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('web/images/internet/logo.png')}}" />
         <!-- CSS
          ============================================ -->
         <!-- Bootstrap CSS -->
@@ -35,7 +35,7 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{ asset('/web/css/responsive.css')}}" />
 
-        <title>Cafmotel Ringless</title>
+        <title>Ringless Cloud</title>
 
     
     </head>
@@ -54,7 +54,7 @@
                             </li>
                             <li>
                                 <i class="pbmit-base-icon-mail-alt"></i>
-                                <a href="mailto:sales@cafmotel.com">Email: sales@cafmotel.com</a>
+                                <a href="mailto:sales@ringless.cloud.com">Email: sales@ringless.cloud.com</a>
                             </li>
                         </ul>
                     </div>
@@ -202,7 +202,7 @@
                             <div class="pbmit-footer-contact-info">
                                 <div class="pbmit-content-box">Need support?</div>
                                 <div class="pbmit-contact-box">
-                                    <a href="mailto:sales@cafmotel.com">sales@cafmotel.com</a>
+                                    <a href="mailto:sales@ringless.cloud.com">sales@ringless.cloud.com</a>
                                 </div>
                             </div>
                         </div>
@@ -255,7 +255,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="pbmit-footer-copyright-text-area">
-                            Copyright © 2022 <a href="index.php">Cafmotel</a>, All Rights
+                            Copyright © 2022 <a href="index.php">Ringless Cloud</a>, All Rights
                             Reserved.
                         </div>
                     </div>

@@ -51,7 +51,7 @@
                                     <h2 class="pbmit-title">About us</h2>
                                 </div>
                                 <div>
-                                    Cafmotel is crafted to enhance client connections
+                                    Ringless Cloud is crafted to enhance client connections
                                     efficiently. We believe in leveraging technology and
                                     strategic messaging to elevate sales, service, and
                                     relationships effortlessly.
@@ -61,7 +61,7 @@
                                     Whether you're nurturing a new list with ringless voicemail,
                                     maintaining client communication through SMS drip marketing,
                                     handling incoming calls with IVR, or integrating visually
-                                    appealing direct mail into your marketing strategy, Cafmotel
+                                    appealing direct mail into your marketing strategy, Ringless Cloud
                                     provides comprehensive assistance.
                                 </div>
                                 <div class="pbmit-list-style-1">
@@ -89,9 +89,9 @@
                 <div class="container">
                     <div class="pbmit-heading-subheading text-center">
                         <h4 class="pbmit-subtitle-white">How to use</h4>
-                        <h2 class="pbmit-title">Cafmotel Is Simple To Use</h2>
+                        <h2 class="pbmit-title">Ringless Cloud Is Simple To Use</h2>
                         <p>
-                            Cafmotel Is Simple To Use Call directly to a voicemail system
+                            Ringless Cloud Is Simple To Use Call directly to a voicemail system
                             and send thousands of ringless voicemail drop messages directly
                             to your contacts in just minutes. Reach mobile phones and
                             landline phones in the United States and Canada with voicemail
