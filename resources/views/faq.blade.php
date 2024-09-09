@@ -61,7 +61,7 @@
                                             Ringless voicemail drops (RVMs), also known as voicemail
                                             drops, are tools employed to deliver personalized
                                             voicemail messages directly to the recipient's voicemail
-                                            box. Cafmotel holds the patent for our ringless
+                                            box. Ringless Cloud holds the patent for our ringless
                                             voicemail technology. Utilizing our platform, we
                                             seamlessly take your prerecorded message and insert it
                                             into the recipient's voicemail box. We take pride in the
@@ -226,7 +226,7 @@
                                             .
                                             <br />
                                             <br />
-                                            Cafmotel does not cross check your personal phone number
+                                            Ringless Cloud does not cross check your personal phone number
                                             lists with the National Do Not Call Registry.
                                         </div>
                                     </div>

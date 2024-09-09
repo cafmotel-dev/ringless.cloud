@@ -72,7 +72,7 @@
                       </li>
                     </ul> -->
                                 </div>
-                                <a href="contact-us.php" class="pbmit-btn">Conatct Us</a>
+                                <a href="{{url('contact-us')}}" class="pbmit-btn">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -210,9 +210,9 @@
                 <div class="container">
                     <div class="pbmit-heading-subheading text-center">
                         <h4 class="pbmit-subtitle-white">How to use</h4>
-                        <h2 class="pbmit-title">Cafmotel Is Simple To Use</h2>
+                        <h2 class="pbmit-title">Ringless Cloud Is Simple To Use</h2>
                         <p>
-                            Cafmotel Is Simple To Use Call directly to a voicemail system
+                            Ringless Cloud Is Simple To Use Call directly to a voicemail system
                             and send thousands of ringless voicemail drop messages directly
                             to your contacts in just minutes. Reach mobile phones and
                             landline phones in the United States and Canada with voicemail
