@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Mail\Mailable;
+use Illuminate\Support\Facades\Log;
+
 class HomeController extends Controller
 {
     public function aboutUs(){
@@ -34,6 +36,8 @@ class HomeController extends Controller
 
     public function saveContact(Request $request)
     {
+        Log::info('contact saved',['contact'=>$request->all()]);
+
         try {
             // Create a new Contact instance and fill it with the request data
             $contact = new Contact();
@@ -45,13 +49,13 @@ class HomeController extends Controller
 
             // Save the contact record to the database
             $contact->save();
-            
-            // Send an email notification
-            Mail::send([], [], function ($message) use ($contact) {
-                $message->to('sales@ringless.cloud.com')
-                        ->subject('New Contact Form Submission')
-                        ->setBody("Name: {$contact->name}\nEmail: {$contact->email}\nPhone: {$contact->phone}\nMessage: {$contact->message}");
-            });
+            Log::info('contact saved',['contact'=>$contact]);
+      // Send an email notification
+      Mail::send([], [], function ($message) use ($contact) {
+        $message->to('sales@ringless.cloud.com')
+                ->subject('New Contact Form Submission')
+                ->setBody("Name: {$contact->name}\nEmail: {$contact->email}\nPhone: {$contact->phone}\nMessage: {$contact->message}\nSubject: {$contact->subject}");
+    });
             
             // Optionally, you can return a response or redirect the user
             return response()->json(['message' => 'Contact information saved successfully'], 200);

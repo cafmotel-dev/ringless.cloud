@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/contact-us', [HomeController::class, 'contactUs']);
-Route::get('/save-contact-us', [HomeController::class, 'saveContact']);
+Route::post('/save-contact-us', [HomeController::class, 'saveContact']);
 Route::get('/about-us', [HomeController::class, 'aboutUs']);
 Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/solutions', [HomeController::class, 'Solutions']);

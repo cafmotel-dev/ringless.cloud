@@ -3,7 +3,14 @@
 
 @section('content')
 <style>
-    #loader {
+    .phn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+#loader {
     display: none; /* Hide the loader initially */
     position: fixed;
     top: 50%;
@@ -22,6 +29,7 @@
     filter: blur(5px); /* Adjust the blur intensity as needed */
     pointer-events: none; /* Prevent interactions with blurred elements */
 }
+
     </style>
 <body>
     <!-- Page Wrapper -->
@@ -102,39 +110,77 @@
         <img src="{{asset('web/images/loader-30px.gif')}}" alt="Loading..." />
     </div>
 </div>
+<div id="msg" class="h3 text-center"></div>
 
-                                <form class="contact-left-section contact-form" method="post" id="contact-form"
-                                    action="">
+<form  role="form">
                                     <div class="row g-4">
                                         <div class="col-sm-12 col-md-6">
+                                        <span id="nameMsg"style="color:red;"></span>
                                             <input type="text" class="form-control mb-0" placeholder="Your Name"
-                                                name="Your Name"id="name" />
+                                                name="name"id="name" />
                                                 <div class="help-block with-errors"></div>
 
                                         </div>
                                         <div class="col-sm-12 col-md-6">
+                                        <span id="emailMsg"style="color:red;"></span>
                                             <input type="email" class="form-control" placeholder="Email Address"
-                                                name="Email Address"id="email" />
+                                                name="email"id="email" />
                                                 <div class="help-block with-errors"></div>
 
                                         </div>
                                         <div class="col-sm-12 col-md-6 mt-0">
+                                        <span id="phoneMsg"style="color:red;"></span>
                                             <input type="text" class="form-control" placeholder="Phone Number"
-                                                name="Phone Number" id="phone_number"/>
+                                                name="phone" id="phone_number"/>
                                                 <div class="help-block with-errors"></div>
 
                                         </div>
                                         <div class="col-sm-12 col-md-6 mt-0">
-                                            <input type="email" class="form-control" placeholder="subject"
+                                            <input type="text" class="form-control" placeholder="subject"
                                                 name="subject" id="subject"/>
                                         </div>
                                         <div class="col-sm-12 mt-0">
-                                            <textarea class="form-control" placeholder="Write Message"
-                                                name="Write Message" data-gramm="false"
+                                        <span id="Msg"style="color:red;"></span>
+
+                                            <textarea class="form-control" placeholder="Write Message"name="message"
+                                              data-gramm="false"
                                                 wt-ignore-input="true"id="message"></textarea>
                                         </div>
+                                          <div class="form-group text-center">
+                            <span id="msgCaptcha"style="color:red;"></span>
+
+
+    <div class="col-lg-12 col-md-12">
+    <div class="form-group d-flex align-items-center">
+        <a id="captchaTable"
+            class="flex justify-center text-white social-icon phn_div" style="
+            font-size: 20px;
+            height: 25px;
+            font-style: oblique;
+            border: none;
+            margin-right:10px;
+            background: #F86F03;
+            border-radius: 37px; padding: 16px;
+        
+            ">
+        </a>
+        <button id="refreshButton" class="bg-blue-500 text-black rounded-md focus:outline-none ml-2"
+                style=" border: none; border-radius: 37px; padding: 6px;
+                color: black; cursor: pointer; margin-right:10px;">
+         <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+        <input type="text" class="form-control" id="captchaInput" required
+               data-error="Please enter captcha" placeholder="Enter Captcha">
+               
+    </div>
+            
+            <div class="help-block with-errors"></div>
+</div>
+</div>
                                         <div class="mt-0">
-                                            <a href="#" class="pbmit-btn pbmit-btn-hover-secondary">Send a Massage</a>
+                                            <!-- <a href="#" class="pbmit-btn pbmit-btn-hover-secondary">Send a Massage</a> -->
+                                            <button type="submit" name="submit"id="submit" class="pbmit-btn pbmit-btn-hover-secondary">Send Message</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
                                         </div>
                                     </div>
                                 </form>

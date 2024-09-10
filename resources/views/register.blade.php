@@ -225,7 +225,7 @@
           <p>
           Ready to dive back in? Sign in and let's continue the journey!
           </p>
-          <a target="_blank" href="{{env('SIGN_IN')}}" style="padding: 5px;text-decoration: none;" class="btn transparent" id="sign-up-btn">
+          <a target="_blank" href="http://portal.ringless.cloud/" style="padding: 5px;text-decoration: none;" class="btn transparent" id="sign-up-btn">
             Sign in
           </a>
         </div>
