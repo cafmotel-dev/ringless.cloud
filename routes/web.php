@@ -23,6 +23,7 @@ Route::post('/save-contact-us', [HomeController::class, 'saveContact']);
 Route::get('/about-us', [HomeController::class, 'aboutUs']);
 Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/solutions', [HomeController::class, 'Solutions']);
+Route::get('/privacy', [HomeController::class, 'PrivacyPolicy']);
 Route::get('/sign-up', [SignupController::class, 'index'])->name('signup');
 Route::post('/store', [SignupController::class, 'store']);
 Route::get('/verify-code', [SignupController::class, 'verifyCode'])->name('verifyCode');

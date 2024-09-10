@@ -31,7 +31,10 @@ class HomeController extends Controller
         return view('contact-us');
         
     }
-
+    public function PrivacyPolicy(){
+        return view('privacy-policy');
+        
+    }
 
 
     public function saveContact(Request $request)
