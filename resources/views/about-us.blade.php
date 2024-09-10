@@ -77,7 +77,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="contact-us.php" class="pbmit-btn">Conatct Us</a>
+                                <a href="{{url('contact-us')}}" class="pbmit-btn">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                                 cost-per-acquisition (CPA), and best reach in the U.S.
                                 marketing industry.
                             </p>
-                            <a href="contact-us.php" class="pbmit-btn mt-3">Contact us</a>
+                            <a href="{{url('contact-us')}}" class="pbmit-btn mt-3">Contact us</a>
                         </div>
                         <div class="col-xl-6 col-md-12 progressbar-section-home">
                             <div class="progressbar">
