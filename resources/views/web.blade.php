@@ -264,7 +264,7 @@
                             <div class="menu-copyright-menu-container">
                                 <ul class="pbmit-footer-menu">
                                     <li class="menu-item">
-                                        <a href="privacy.php">Privacy Policy</a>
+                                        <a href="{{url('privacy')}}">Privacy Policy</a>
                                     </li>
                                     <!-- <li class="menu-item">
                                         <a href="#">Contact</a>
