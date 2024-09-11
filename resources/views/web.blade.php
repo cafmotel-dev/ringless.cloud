@@ -54,7 +54,7 @@
                             </li>
                             <li>
                                 <i class="pbmit-base-icon-mail-alt"></i>
-                                <a href="mailto:sales@ringless.cloud.com">Email: sales@ringless.cloud.com</a>
+                                <a href="mailto:sales@ringless.cloud">Email: sales@ringless.cloud</a>
                             </li>
                         </ul>
                     </div>
@@ -202,7 +202,7 @@
                             <div class="pbmit-footer-contact-info">
                                 <div class="pbmit-content-box">Need support?</div>
                                 <div class="pbmit-contact-box">
-                                    <a href="mailto:sales@ringless.cloud.com">sales@ringless.cloud.com</a>
+                                    <a href="mailto:sales@ringless.cloud">sales@ringless.cloud</a>
                                 </div>
                             </div>
                         </div>

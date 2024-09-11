@@ -221,7 +221,7 @@
                                         <div class="pbmit-ihbox-contents">
                                             <div class="pbmit-heading-desc">Send Email</div>
                                             <h2 class="pbmit-element-title">
-                                                <a href="mailto:sales@ringless.cloud.com">sales@ringless.cloud.com</a>
+                                                <a href="mailto:sales@ringless.cloud">sales@ringless.cloud</a>
                                             </h2>
                                         </div>
                                     </div>
